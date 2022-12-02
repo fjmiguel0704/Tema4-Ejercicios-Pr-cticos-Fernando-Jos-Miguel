@@ -22,7 +22,8 @@ public class NumerosAleatorios {
 		for(int i = 1; i<=cantidad; i++ ) {
 			numero=Math.random()*(max-min)+min;
 			numero+=0.5;
-			System.out.println((int)numero);
+			System.out.println((int)numero); 
+			//
 		}
 	}
 }
