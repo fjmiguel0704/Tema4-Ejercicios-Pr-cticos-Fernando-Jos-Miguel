@@ -23,7 +23,6 @@ public class NumerosAleatorios {
 			numero=Math.random()*(max-min)+min;
 			numero+=0.5;
 			System.out.println((int)numero); 
-			//
 		}
 	}
 }
