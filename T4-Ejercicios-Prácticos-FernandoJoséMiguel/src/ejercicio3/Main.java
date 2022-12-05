@@ -2,6 +2,16 @@ package ejercicio3;
 
 import java.util.Scanner;
 
+//Pruebas:
+//Introduzco generar=3, max=2, min=5. 
+//Resulltado esperado: 
+//1: 0.38139217509615253, 0.8680790550352865, 0.7358899842423313
+//2: 2, 1, 0
+//3: 4, 3, 4 
+//Resultado obtenido: 
+//1: 0.38139217509615253, 0.8680790550352865, 0.7358899842423313
+//2: 2, 1, 0
+//3: 4, 3, 4 
 public class Main {
 
 	/**

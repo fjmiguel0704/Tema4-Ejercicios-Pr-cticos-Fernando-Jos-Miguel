@@ -8,7 +8,7 @@ package ejercicio1;
  */
 public class Numeros {
 	
-	//Creamos la función esPrimo para comprobar si es o no
+	//Creamos la función esPrimo para comprobar si (numero) es o no primo.  
 	   boolean esPrimo(int numero) {
 		   
 		   //Si el número introducido es menor o igual a 1, no es primo
@@ -29,7 +29,7 @@ public class Numeros {
 		return true;
 	}
 	   
-	   //Función esCapicua para comprobar si es o no
+	   //Función esCapicua para comprobar si (numero) es o no capicúa
 	   boolean esCapicua (int numero) {
 		   
 		   //Creamos la variable auxiliar que va a guardar el numero, el resto y el numero invertido

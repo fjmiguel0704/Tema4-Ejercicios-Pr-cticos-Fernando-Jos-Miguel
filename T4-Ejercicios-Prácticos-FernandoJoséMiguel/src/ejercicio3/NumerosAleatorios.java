@@ -7,7 +7,7 @@ package ejercicio3;
  */
 public class NumerosAleatorios {
 	
-	//CReamos la función numerosAleatorios, que generará tantos números aleatorios indicados por el usuario entre 0 y 1
+	//CReamos la función numerosAleatorios, que generará tantos números aleatorios indicados por el usuario (cantidad) entre 0 y 1
 	static void numerosAleatorios (int cantidad) {
 		
 		//Creamos i, y la incrementamos mientras sea menor o igual a cantidad
@@ -18,7 +18,7 @@ public class NumerosAleatorios {
 		}
 	}
 	
-	//Creamos otra función en la que generaremos tantos números indique el usuario, entre 0 y el máximo indicado
+	//Creamos otra función en la que generaremos tantos números indique el usuario (cantidad), entre 0 y el máximo indicado (max)
 	static void numerosAleatorios (int cantidad, int max) {
 		//Creamos la variable numero que guardará el resulltado de generar el número y sumarle cero y medio
 		double numero;
@@ -33,7 +33,7 @@ public class NumerosAleatorios {
 		}
 	}
 	
-	//Creamos otra función en la que generaremos tantos números indique el usuario, entre un mínimo indicado y un máximo indicado
+	//Creamos otra función en la que generaremos tantos números indique el usuario (cantidad), entre un mínimo indicado (min) y un máximo indicado (max)
 	static void numerosAleatorios (int cantidad, int max, int min) {
 		
 		//Creamos la variable numero que guardará el resulltado de generar el número y sumarle cero y medio

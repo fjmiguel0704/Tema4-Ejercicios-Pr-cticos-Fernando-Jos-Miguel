@@ -3,13 +3,32 @@ package ejercicio4;
 import java.util.Scanner;
 import ejercicio4.Operaciones;
 
+//Pruebas:
+//Introduzco 6, 3. 
+//Resulltado esperado: 
+//suma=9
+//resta=3
+//multiplicación=18
+//división=2
+//Resultado obtenido: 
+//suma=9
+//resta=3
+//multiplicación=18
+//división=2
 public class Main {
 
+	/**
+	 * Método Main
+	 * @param args
+	 */
 	public static void main(String[] args) {
+		//Creamos estas tres variables para recoger los datos del usuario
 		int num1, num2, opcion = 0;
 		
+		//Creamos el objeto operaciones para llamar a la clase Operaciones
 		Operaciones operaciones = new Operaciones ();
 		
+		//Creamos el scanner y pedimos al usuario ambos números y la opción a realizar
 		Scanner read = new Scanner (System.in);
 		
 		System.out.println("Introduce el primer número: ");
@@ -23,6 +42,11 @@ public class Main {
 		System.out.println("d) [4] DIVIDIR");
 		opcion=read.nextInt();
 		
+		//Cerramos el scanner
+		read.close();
+		
+		//Realizamos un switch case para indicar la operación a realizar según la opción indicada 
+		//e imprimimos la función de la clase Operaciones que contiene dicha opción
 		switch (opcion) {
 		case 1:
 			System.out.println("La suma de sus números es: "+operaciones.suma()); 
